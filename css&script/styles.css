@@ -157,3 +157,13 @@ h1 {
   font-size: 20px;
   font-weight: normal; 
 }
+@media screen and (max-width:768px){}
+p {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  position: relative;
+  padding-top: 20px;
+  background-color:#e8dcca;
+}
