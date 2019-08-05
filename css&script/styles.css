@@ -158,7 +158,7 @@ h1 {
   font-weight: normal; 
 }
 @media screen and (max-width:768px){}
-p {
+#intro p {
   text-align: center;
   font-size: 17px;
   font-family: "Cinzel", serif;
