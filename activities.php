@@ -62,7 +62,7 @@
             <a class="nav-link" href="quiz.php">Quiz</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="https://www.lab1-cortez.herokuapp.com" target="_blank">Lab 1</a>
+            <a class="nav-link" href="https://lab1-cortez.herokuapp.com" target="_blank">Lab 1</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
