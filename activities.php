@@ -26,24 +26,6 @@
 
 <body>
 
-<!--  <div id="navbar">
-
-    <a href="reflections.html">
-
-      Reflections
-
-    </a>
-
-    <a href="index.html">
-
-      Home
-
-    </a>
-  
-  </div>
-
--->
-
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
     <a class="navbar-brand" href="index.php"><img src="Images/icong.png" alt="gian" width="40" height="45"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,6 +45,17 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://lab1-cortez.herokuapp.com" target="_blank">Lab 1</a>
+        </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#act2">Activity 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#act3">Activity 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#act4">Activity 4</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
