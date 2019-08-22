@@ -26,7 +26,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info" id="try">
     <a class="navbar-brand" href="index.php"><img src="Images/icong.png" alt="gian" width="40" height="45"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -71,18 +71,18 @@
     Gian
 
   </div>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div id="act">
 
-  <div id="act">
+      <h1 class="hi">
 
-    <h1 class="hi">
+      ACTIVITY 2
 
-    ACTIVITY 2
+      </h1>
 
-    </h1>
+      <pre>
 
-    <pre>
-
-      <p>  
+        <p>  
 
 There are a lot of applications used nowadays. My favorite apps are Twitter, 
 Facebook messenger and Spotify. I started using twitter since 2014. I use it to 
@@ -107,22 +107,22 @@ listening to music. It is convenient because I am able to download songs I love
 and play it even if it is offline, anytime, anywhere. It really helped boost 
 my energy when I listen to music.
 
-      </p>
+        </p>
       
-    </pre>
+      </pre>
     
-  </div>
-  <div id="act">
+    </div>
+    <div id="act">
     
-    <h1 class="hi">
+      <h1 class="hi">
 
-      ACTIVITY 3
+        ACTIVITY 3
 
-    </h1>
+      </h1>
 
-    <pre>
+      <pre>
 
-      <p>
+        <p>
 
 How would you design an interface for a 1000 floor elevator?
 
@@ -161,23 +161,23 @@ confusion on where to find the desired floor button. In conclusion, it can reall
 since the elevator won’t need to stop at every floor because it will only stop when the person inputs his
 or her desired floor number.
 
-      </p>
+        </p>
 
-    </pre>
+      </pre>
 
-  </div>
+    </div>
 
-<div id="act">
+  <div id="act">
     
-    <h1 class="hi">
+      <h1 class="hi">
 
-      ACTIVITY 4
+        ACTIVITY 4
 
-    </h1>
+      </h1>
 
-    <pre>
+      <pre>
 
-      <p>
+        <p>
 
 GROUP 1 – S.C.M.K
 PLAN = “Disaster/Donation Application”
@@ -216,42 +216,42 @@ donators.
 - Certified donation locations
 - Can alert the users whenever a donation is needed
 
-      </p>
+        </p>
 
-    </pre>
+      </pre>
 
-  </div>
+    </div>
 
-  <div id="act">
+    <div id="act">
     
-    <h1 class="hi">
+      <h1 class="hi">
 
-      ACTIVITY 5
+        ACTIVITY 5
 
-    </h1>
+      </h1>
 
-    <img src="Images/login.png" alt="login" class="pics">
+      <img src="Images/login.png" alt="login" class="pics">
 
-    <p>Login Page</p>
+      <p>Login Page</p>
 
-    <img src="Images/signup.png" alt="signup" class="pics">
+      <img src="Images/signup.png" alt="signup" class="pics">
 
-    <p>Signup Page</p>
+      <p>Signup Page</p>
 
-    <img src="Images/error.png" alt="error" class="pics">
+      <img src="Images/error.png" alt="error" class="pics">
 
-    <p>Signup Page with error</p>
+      <p>Signup Page with error</p>
 
-    <img src="Images/successsign.png" alt="success" class="pics">
+      <img src="Images/successsign.png" alt="success" class="pics">
 
-    <p>Successful Signup</p>
+      <p>Successful Signup</p>
 
-    <img src="Images/main_page.png" alt="mainpage" class="pics">
+      <img src="Images/main_page.png" alt="mainpage" class="pics">
 
-    <p>Main Page</p>
+      <p>Main Page</p>
 
+    </div>
   </div>
-  
 
   <div id="icons">
 
