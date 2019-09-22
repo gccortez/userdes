@@ -60,9 +60,18 @@ body, html {
   font-size: 20px;
   font-weight: normal;
 }
+#learn {
+  position: relative;
+  text-align: center;
+  background-color: #e8dcca;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
 
 .pics {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 #ref {
   position: relative;
@@ -93,6 +102,16 @@ p {
   font-family: "Cinzel", serif;
   font-weight: normal;
   padding-bottom: 20px;
+  position: relative;
+  background-color:#e8dcca;
+}
+
+.persona {
+  text-align: left;
+  margin-left: 35%;
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+  font-weight: normal;
   position: relative;
   background-color:#e8dcca;
 }
