@@ -32,7 +32,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="dropdown" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
             <a class="nav-link" href="activities.html">Activities</a>
@@ -43,9 +43,13 @@
         <li class="nav-item">
           <a class="nav-link" href="https://lab1-cortez.herokuapp.com" target="_blank">Lab 1</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="learning.html">Learning</a>
-        </li>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Learning
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#relate">Userdes Related Courses</a>
+            <a class="dropdown-item" href="#personalll">Personal Choice Courses</a>
+        </div>
       </ul>
 
     </div>
@@ -58,42 +62,95 @@
   </div>
   <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
   <div id="learn">
-    <h1 class="hi">
+    <h1 class="hi" id="relate">
 
         USERDES RELATED COURSES
 
     </h1>
     <img src="Images/1stcert.PNG" alt = "1stcert" class="pics">
-    <p>
-      User Experience for Web Design
+    <p class="pp">
+      User Experience for Web Design; Course completed on September 17, 2019
     </p>
     <img src="Images/2ndcert.PNG" alt = "2ndcert" class="pics">
-    <p>
-      Design Thinking: Customer Experience
+    <p class="pp">
+      Design Thinking: Customer Experience; Course completed on September 21, 2019
     </p>
     <img src="Images/3rdcert.PNG" alt = "3rdcert" class="pics">
-    <p>
-      Design Thinking: Prototyping
+    <p class="pp">
+      Design Thinking: Prototyping; Course completed on September 18, 2019
     </p>
-    <h1 class="hi">
+    <h1 class="hi" id="personalll">
 
       PERSONAL CHOICE COURSES
 
     </h1>
     <img src="Images/4thcert.PNG" alt = "4thcert" class="pics">
-    <p>
-      Python Basics For Java Developers
+    <p class="pp">
+      Python Basics For Java Developers; Course completed on January 30, 2019
     </p>
     <img src="Images/5thcert.PNG" alt = "5thcert" class="pics">
-    <p>
-      Learning SQL Programming
+    <p class="pp">
+      Learning SQL Programming; Course completed on September 15, 2019
     </p>
     <img src="Images/6thcert.PNG" alt = "6thcert" class="pics">
-    <p>
-      Database Foundations: Administration
+    <p class="pp">
+      Database Foundations: Administration; Course completed on September 17, 2019
     </p>
-
-    <p> 
   </div>
+    <div id="icons">
+
+    <a href="https://www.twitter.com/gncrlcrtz" target="_blank">
+
+      <img src="Images/twitter.png" alt="twitter" width="20" height="20">
+
+    </a>
+
+    <a href="https://www.trello.com/giancortez" target="_blank">
+
+      <img src="Images/trello.png"alt="trello" width="20" height="20">
+
+    </a>
+
+    <a href="https://www.duolingo.com/GianCortez5" target="_blank">
+
+      <img src="Images/duolingo.png"alt="duolingo" width="20" height="20">
+
+    </a>
+    
+    <a href="mailto:gccortez@student.apc.edu.ph" target="_blank">
+
+      <img src="Images/outlook.png"alt="outlook" width="20" height="20">
+
+    </a>
+    
+    <a href="https://www.github.com/gccortez" target="_blank">
+
+      <img src="Images/github.png"alt="github" width="20" height="20">
+
+    </a>
+
+  </div>
+
+  <div class="parallax"></div>
+
+  <script type="text/javascript" src="css&script/script.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+  
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+  
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+  
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+  
+  crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+  
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+  
+  crossorigin="anonymous"></script>
 </body>
 </html>
