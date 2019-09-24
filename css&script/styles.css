@@ -75,7 +75,7 @@ body, html {
 }
 
 .pics {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .ref {
   position: relative;
@@ -86,7 +86,9 @@ body, html {
   font-size: 20px;
   font-weight: normal; 
 }
-
+.pp {
+  padding-bottom: 5%;
+}
 #quiz {
   position: relative;
   text-align: center;
@@ -105,7 +107,7 @@ p {
   font-size: 18px;
   font-family: "Cinzel", serif;
   font-weight: normal;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   position: relative;
   background-color:#e8dcca;
 }
